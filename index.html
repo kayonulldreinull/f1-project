@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Line-up 2024</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="icon"
+      href="assets/images/favicon/racing-car.png"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body>
+    <section class="cabecalho">
+      <div class="titulo">
+        <h1>F1 Podium 2024</h1>
+      </div>
+      <div class="p-inicial">
+        <p>
+          Check out this season's official F1 TOP 3 Rank. Full breakdown of
+          Podium drivers, points and current positions. Follow your favourite F1
+          driver on and off the track.
+        </p>
+      </div>
+    </section>
+    <section class="drivers-s">
+      <div class="podium-drivers">
+        <div onclick="abrirModalMax()" class="maxv-1">
+          <div class="points-position">
+            <h1>1</h1>
+            <h1>136PTS</h1>
+          </div>
+          <div class="n-flag">
+            <div class="nomecolumn">
+              <h3>Max</h3>
+              <h3>Verstappen</h3>
+            </div>
+            <img src="src/assets/images/Netherlands.png" alt="flag" />
+          </div>
+          <p>Red Bull Racing</p>
+          <img
+            class="pilotimg"
+            src="src/assets/images/maxver01.png"
+            alt="pilot-img"
+          />
+        </div>
+
+        <div onclick="abrirModalSerg()" class="sergp-2">
+          <div class="points-position">
+            <h1>2</h1>
+            <h1>103PTS</h1>
+          </div>
+          <div>
+            <div class="n-flag">
+              <div class="nomecolumn">
+                <h3>Sergio</h3>
+                <h3>Perez</h3>
+              </div>
+              <img src="src/assets/images/Mexico.png" alt="flag" />
+            </div>
+          </div>
+          <p>Red Bull Racing</p>
+          <img
+            class="pilotimg"
+            src="src/assets/images/serper01.png"
+            alt="pilot-img"
+          />
+        </div>
+
+        <div onclick="abrirModalCharl()" class="charlec-3">
+          <div class="points-position">
+            <h1>3</h1>
+            <h1>98PTS</h1>
+          </div>
+          <div>
+            <div class="n-flag">
+              <div class="nomecolumn">
+                <h3>Charles</h3>
+                <h3>Leclerc</h3>
+              </div>
+              <img src="src/assets/images/Monaco.png" alt="flag" />
+            </div>
+          </div>
+          <p>Ferrari</p>
+          <img
+            class="pilotimg"
+            src="src/assets/images/chalec01.png"
+            alt="pilot-img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="footer-s">
+      <div class="formula-2-3">
+        <div class="formula-2">
+          <div>
+            <h1>Formula 2</h1>
+            <p>Check out the F2 team <br />and driver line-ups</p>
+          </div>
+          <a
+            class="explore-btn"
+            href="https://www.fiaformula2.com/Teams-and-Drivers"
+            target="_blank"
+            >Explore</a
+          >
+        </div>
+        <div class="formula-3">
+          <div>
+            <h1>Formula 3</h1>
+            <p>Check out the F3 team <br />and driver line-ups</p>
+          </div>
+          <a
+            class="explore-btn"
+            href="https://www.fiaformula3.com/Teams-and-Drivers"
+            target="_blank"
+            >Explore</a
+          >
+        </div>
+      </div>
+      <div class="socials">
+        <div class="app-download">
+          <p>Download the official F1 App</p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.softpauer.f1timingapp2014.basic&hl=en_GB&pli=1"
+            target="_blank"
+          >
+            <img
+              src="src/assets/images/google-play-badge.png"
+              alt="playstore"
+            />
+          </a>
+          <a
+            href="https://apps.apple.com/gb/app/formula-1/id835022598"
+            target="_blank"
+          >
+            <img
+              src="src/assets/images/download-on-the-app-store-apple.png"
+              alt="appstore"
+            />
+          </a>
+        </div>
+        <div class="social-media">
+          <div>
+            <a href="https://www.facebook.com/Formula1" target="_blank">
+              <img src="src/assets/images/facebook.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/f1" target="_blank">
+              <img src="src/assets/images/x.webp" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/f1/" target="_blank">
+              <img src="src/assets/images/instagram.webp" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/F1" target="_blank">
+              <img src="src/assets/images/youtube.webp" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="janela-modalMax" id="janela-modalMax">
+      <div class="modal" id="modal">
+        <button class="fechar-btnModal" id="fechar-btnModal">X</button>
+        <div>
+          <img class="img-modal" src="src/assets/images/verstappen.avif" alt="">
+          <div class="name-flag">
+            <img class="netherflag-modal" src="src/assets/images/Netherlands.png" alt="n-flag">
+            <h1>1 - Max Verstappen</h1>
+          </div>
+        </div>
+        <div>
+          <div class="statuses">
+            <div class="status-display">
+              Team
+              <div>
+                Red Bull Racing
+              </div>
+            </div>
+
+            <div class="status-display">
+              Country
+              <div>
+                Netherlands
+              </div>
+            </div>
+
+            <div class="status-display">
+              Podiums
+              <div>
+                103
+              </div>
+            </div>
+            
+            <div class="status-display">
+              Points
+              <div>
+                2722.5
+              </div>
+            </div>
+
+            <div class="status-display">
+              Grands Prix entered
+              <div>
+                191
+              </div>
+            </div>
+
+            <div class="status-display">
+              World Championships
+              <div>
+                3
+              </div>
+            </div>
+
+            <div class="status-display">
+              Highest race finish
+              <div>
+                1 (x58)
+              </div>
+            </div>
+
+            <div class="status-display">
+              Highest grid position
+              <div>
+                1
+              </div>
+            </div>
+
+            <div class="status-display">
+              Date of birth
+              <div>
+                30/09/1997
+              </div>
+            </div>
+            
+            <div class="status-display">
+              Place of birth
+              <div>
+                Hasselt, Belgium
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="janela-modalSerg" id="janela-modalSerg">
+      <div class="modal" id="modal">
+        <button class="fechar-btnModal" id="fechar-btnModal">X</button>
+        <div>
+          <img class="img-modal" src="src/assets/images/perez.avif" alt="">
+          <div class="name-flag">
+            <img class="netherflag-modal" src="src/assets/images/Mexico.png" alt="n-flag">
+            <h1>11 - Sergio Perez</h1>
+          </div>
+        </div>
+        <div>
+          <div class="statuses">
+            <div class="status-display">
+              Team
+              <div>
+                Red Bull Racing
+              </div>
+            </div>
+
+            <div class="status-display">
+              Country
+              <div>
+                Mexico
+              </div>
+            </div>
+
+            <div class="status-display">
+              Podiums
+              <div>
+                39
+              </div>
+            </div>
+            
+            <div class="status-display">
+              Points
+              <div>
+                1587
+              </div>
+            </div>
+
+            <div class="status-display">
+              Grands Prix entered
+              <div>
+                264
+              </div>
+            </div>
+
+            <div class="status-display">
+              World Championships
+              <div>
+                0
+              </div>
+            </div>
+
+            <div class="status-display">
+              Highest race finish
+              <div>
+                1 (x6)
+              </div>
+            </div>
+
+            <div class="status-display">
+              Highest grid position
+              <div>
+                1
+              </div>
+            </div>
+
+            <div class="status-display">
+              Date of birth
+              <div>
+                26/01/1990
+              </div>
+            </div>
+            
+            <div class="status-display">
+              Place of birth
+              <div>
+                Guadalajara, Mexico
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="janela-modalCharl" id="janela-modalCharl">
+      <div class="modal" id="modal">
+        <button class="fechar-btnModal" id="fechar-btnModal">X</button>
+        <div>
+          <img class="img-modal" src="src/assets/images/leclerc.avif" alt="">
+          <div class="name-flag">
+            <img class="netherflag-modal" src="src/assets/images/Monaco.png" alt="n-flag">
+            <h1>16 - Charles Leclerc</h1>
+          </div>
+        </div>
+        <div>
+          <div class="statuses">
+            <div class="status-display">
+              Team
+              <div>
+                Ferrari
+              </div>
+            </div>
+
+            <div class="status-display">
+              Country
+              <div>
+                Monaco
+              </div>
+            </div>
+
+            <div class="status-display">
+              Podiums
+              <div>
+                33
+              </div>
+            </div>
+            
+            <div class="status-display">
+              Points
+              <div>
+                1172
+              </div>
+            </div>
+
+            <div class="status-display">
+              Grands Prix entered
+              <div>
+                131
+              </div>
+            </div>
+
+            <div class="status-display">
+              World Championships
+              <div>
+                0
+              </div>
+            </div>
+
+            <div class="status-display">
+              Highest race finish
+              <div>
+                1 (x5)
+              </div>
+            </div>
+
+            <div class="status-display">
+              Highest grid position
+              <div>
+                1
+              </div>
+            </div>
+
+            <div class="status-display">
+              Date of birth
+              <div>
+                16/10/1997
+              </div>
+            </div>
+            
+            <div class="status-display">
+              Place of birth
+              <div>
+                Monte Carlo, Monaco
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
